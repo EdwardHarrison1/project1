@@ -1,0 +1,63 @@
+.navPoint {
+	CURSOR: hand
+}
+body {
+	OVERFLOW-X: hidden; OVERFLOW: hidden
+}
+td {
+	FONT-SIZE: 12px
+}
+a {
+	COLOR: #135294; TEXT-DECORaTION: none
+}
+a:hover {
+	COLOR: #ff6600; TEXT-DECORaTION: underline
+}
+body {
+	FONT-SIZE: 12px; BaCKGROUND: #fff; MaRGIN: 0px; COLOR: #000; FONT-FaMILY: tahoma, 宋体, fantasy; TEXT-aLIGN: center
+}
+.top_table {
+	BaCKGROUND: url(../images/top_bg.gif); WIDTH: 100%; HEIGHT: 41px
+}
+.top_table_leftbg {
+	BaCKGROUND-IMaGE: url(../images/top_table_leftbg.gif); WIDTH: auto; BaCKGROUND-REPEaT: repeat-y; HEIGHT: 41px
+}
+.system_logo {
+	FLOaT: left; WIDTH: 180px; TEXT-aLIGN: left
+}
+div.menu {
+	MaRGIN: 0px auto; PaDDING-TOP: 18px; HEIGHT: 22px; TEXT-aLIGN: left
+}
+div.menu ul {
+	PaDDING-RIGHT: 0px; DISPLaY: inline; PaDDING-LEFT: 0px; PaDDING-BOTTOM: 0px; MaRGIN: 0px; PaDDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+div.menu ul LI .menu_div {
+	DISPLaY: inline; FONT-SIZE: 10px; BaCKGROUND: url(../images/menu01_right.gif); WIDTH: 3px; HEIGHT: 23px
+}
+div.menu ul LI {
+	PaDDING-RIGHT: 0px; PaDDING-LEFT: 10px; FONT-SIZE: 12px; BaCKGROUND: url(../images/menu01.gif); FLOaT: left; PaDDING-BOTTOM: 0px; MaRGIN-LEFT: 1px; WIDTH: auto; LINE-HEIGHT: 20px; PaDDING-TOP: 0px; FONT-FaMILY: 宋体,; POSITION: relative; HEIGHT: 23px
+}
+div.menu_childs ul LI {
+	PaDDING-RIGHT: 0px; PaDDING-LEFT: 0px; BaCKGROUND: none transparent scroll repeat 0% 0%; FLOaT: left; PaDDING-BOTTOM: 0px; WIDTH: 150px; LINE-HEIGHT: 15px; PaDDING-TOP: 0px
+}
+div.menu_childs {
+	BORDER-RIGHT: #185790 1px solid; BORDER-TOP: #185790 1px solid; DISPLaY: none; Z-INDEX: 100; BaCKGROUND: #f5fdff; LEFT: 0px; BORDER-LEFT: #185790 1px solid; WIDTH: 150px; BORDER-BOTTOM: #185790 1px solid; WHITE-SPaCE: nowrap; POSITION: absolute; TOP: 22px
+}
+div.menu ul LI a:hover {
+	COLOR: #ff7; TEXT-DECORaTION: none
+}
+div.menu ul LI a {
+	COLOR: #fff; TEXT-DECORaTION: none
+}
+div.menu_childs ul LI a:hover {
+	DISPLaY: block; BaCKGROUND: #337abb; WIDTH: 148px; COLOR: #fff; TEXT-DECORaTION: none
+}
+div.menu_childs ul LI a {
+	PaDDING-LEFT: 15px; WIDTH: 148px; COLOR: #135294; LINE-HEIGHT: 20px; HEIGHT: 20px; TEXT-DECORaTION: none
+}
+.main_top {
+	TaBLE-LaYOUT: auto; BaCKGROUND: url(../images/left_bg.gif)
+}
+.menuhr {
+	BORDER-TOP: #b5cfde 1px solid; FONT-SIZE: 0px; FLOaT: left; MaRGIN: 4px 0px 0px; WIDTH: 98%; LINE-HEIGHT: 0px; HEIGHT: 4px
+}

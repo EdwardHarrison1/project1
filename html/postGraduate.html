@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//Dtd html 4.0 transitional//EN">
+<!-- saved from url=(0037)http://2school.wygk.cn/admin/main.asp -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>研究生页面</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<link 
+href="../css/postGraduate_style.css" type="text/css" 
+rel="stylesheet">
+<style>.main_left {
+	table-layout: auto; background: url(../images/left_bg.gif)
+}
+.main_left_top {
+	background: url(../images/left_menu_bg.gif); padding-top: 5px
+}
+.main_left_title {
+	padding-left: 15px; font-weight: bold; font-size: 14px; color: #fff; text-align: left
+}
+.left_iframe {
+	background: none transparent scroll repeat 0% 0%; visibility: inherit; width: 180px; height: 92%
+}
+.main_iframe {
+	z-index: 1; visibility: inherit; width: 100%; height: 92%
+}
+table {
+	font-size: 12px; FONT-FaMILY: tahoma, 宋体, fantasy
+}
+td {
+	font-size: 12px; FONT-FaMILY: tahoma, 宋体, fantasy
+}
+</style>
+
+<script language="javascript" src="../js/postGraduate_admin.js" 
+type="text/javascript"></script>
+
+<script language="javascript" 
+src="../js/postGraduate_admin(1).js"></script>
+
+<script>
+var status = 1;
+var Menus = new DvMenuCls;
+document.onclick=Menus.Clear;
+function switchSysBar(){
+     if (1 == window.status){
+		  window.status = 0;
+          switchPoint.innerhtml = '<img src="../images/left.gif">';
+          document.all("frmtitle").style.display="none"
+     }
+     else{
+		  window.status = 1;
+          switchPoint.innerhtml = '<img src="../images/right.gif">';
+          document.all("frmtitle").style.display=""
+     }
+}
+</script>
+
+<meta content="MShtml 6.00.2900.5726" name="GENERaTOR"></head>
+<body style="margin: 0px"><!--导航部分-->
+
+<table style="background: #337abb" height="92%" cellSpacing="0" cellPadding="0" 
+width="100%" border="0">
+  <tbody>
+  <tr>
+    <td class="main_left" id="frmtitle" valign="top" align="middle" name="fmtitle">
+      <table class="main_left_top" cellSpacing="0" cellPadding="0" width="100%" 
+      border="0">
+        <tbody>
+        <tr height="32">
+          <td valign="top"></td>
+          <td class="main_left_title" id="leftmenu_title">常用快捷功能</td>
+          <td valign="top" align="right"></td></tr></tbody></table><iframe 
+      class="left_iframe" id="frmleft" name="frmleft" 
+      src="postGraduate_left_postGraduate.html" frameBorder="0" 
+      allowtransparency></iframe>
+      <table cellSpacing="0" cellPadding="0" width="100%" border="0">
+        <tbody>
+        <tr height="32">
+          <td valign="top"></td>
+          <td valign="bottom" align="middle"></td>
+          <td valign="top" align="right"></td></tr></tbody></table></td>
+    <td style="width: 10px" bgcolor="#337abb">
+      <table height="100%" cellSpacing="0" cellPadding="0" border="0">
+        <tbody>
+        <tr>
+          <td style="height: 100%" onclick="switchSysBar()"><span class="navPoint" 
+            id="switchPoint" title="关闭/打开左栏"><img 
+            src="../images/right.gif"></span> 
+        </td></tr></tbody></table></td>
+    <td valign="top" width="100%" bgcolor="#337abb">
+      <table cellSpacing="0" cellPadding="0" width="100%" bgcolor="#c4d8ed " 
+        border="0"><tbody>
+        <tr height="32">
+          <td valign="top" width="10" 
+          background="../images/bg2.gif"><img alt="" 
+            src="../images/teble_top_left.gif"></td>
+          <td width="28" 
+          background="../images/bg2.gif"></td>
+          <td background="../images/bg2.gif"><span 
+            style="float: left">研究生计划管理系统</span><span 
+            id="dvbbsannounce" 
+            style="font-weight: bold; float: left; width: 300px; color: #c00"></span></td>
+          <td style="color: #135294; text-align: right" 
+          background="../images/bg2.gif"> 
+            | <a href="#" target="_top">首页</a> | <a 
+            href="javascript:adminOut()" target="_top">退出</a> </td>
+          <td valign="top" align="right" width="28" 
+          background="../images/bg2.gif"><img alt="" 
+            src="../images/teble_top_right.gif"></td>
+          <td align="right" width="16" bgcolor="#337abb"></td></tr></tbody></table><iframe 
+      class="main_iframe" id="frmright" name="frmright" 
+      src="postGraduate_syscome.html" frameBorder="0" 
+      scrolling="yes"></iframe>
+      <table style="background: #c4d8ed" cellSpacing="0" cellPadding="0" 
+      width="100%" border="0">
+        <tbody>
+        <tr>
+          <td><img height="6" alt="" 
+            src="../images/teble_bottom_left.gif" 
+            width="5"></td>
+          <td align="right"><img height="6" alt="" 
+            src="../images/teble_bottom_right.gif" 
+            width="5"></td>
+          <td align="right" width="16" 
+  bgcolor="#337abb"></td></tr></tbody></table></td></tr></tbody></table>
+<script language="Javascript">
+
+document.getElementById("dvbbsannounce").innerhtml = document.getElementById("dvbbsannounce_true").innerhtml;
+
+</script>
+</body></html>
